@@ -3,15 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/main.min.css">
 </head>
 <body>
-    <h2>Login</h2>
-    <form action="" class="form">
-        <input value="emilys" class="form__input-username" type="text" placeholder="username">
-        <input value="emilyspass" class="form__input-password" type="password" placeholder="password">
-        <button>Login</button>
-    </form>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <h1>Admin paneli</h1>
+                </div>
+                <div class="navbar__collection">
+                    <ul class="n__collection">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a class="link" href="#">Login</a></li>
+                        <li><a href="./admin.html">Profil</a></li>
+                    </ul>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <form action="" class="form">
+            <input value="emilys" class="form__input-username" type="text" placeholder="username">
+            <input value="emilyspass" class="form__input-password" type="password" placeholder="password">
+            <hr>
+            <button>Login</button>
+        </form>
+    </div>
 
 
 

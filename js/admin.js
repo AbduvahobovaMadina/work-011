@@ -24,7 +24,9 @@ function adminInfoRender(){
     console.log(userData);
     admin.innerHTML = `
     <img src="${userData.image}" alt="">
-        <h3>${userData.firstName}</h3>
+        <h3><i class="fa-solid fa-user"></i>: ${userData.firstName}</h3>
+        <h3><i class="fa-solid fa-user"></i> : ${userData.lastName}</h3>
+       <div> <i class="fa-solid fa-envelope"></i> : ${userData.email}</p> </div>
     `
 }
 adminInfoRender()
